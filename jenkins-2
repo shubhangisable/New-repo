@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage ('new_folder') {
             steps {
-                sh 'mkdir gitt'
+                sh 'mkdir new-folder'
 
             }
 
